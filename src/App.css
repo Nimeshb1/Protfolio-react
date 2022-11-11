@@ -1,38 +1,98 @@
-.App {
+.herosection,
+.top-nav {
+  background: linear-gradient(
+    to right,
+    rgb(97, 182, 146),
+    rgba(131, 121, 38, 76%)
+  );
+}
+.collapse > ul > li {
+  margin-left: 90px;
+}
+
+.dropdown-menu > li {
+  background-color: white;
+}
+.hero img {
+  max-width: 300px;
+}
+
+.skills {
+  background-color: rgba(58, 52, 52, 0.59);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bolder;
   text-align: center;
+  margin-top: 2rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 4rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title span {
+  border-bottom: 5px solid yellowgreen;
+  padding: 0.5rem 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.icons div {
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.icons img {
+  margin-bottom: 3rem;
+}
+
+.project {
+  background-color: blanchedalmond;
+}
+
+.githyb > a {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: rgb(38, 38, 36);
+  font-family: inter;
+  margin-top: 20px;
+  text-shadow: 1px 1px rgba(200, 194, 194, 0.59);
 }
 
-.App-link {
-  color: #61dafb;
+.project i {
+  margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img-sec {
+  margin: 10px 21px;
+}
+
+.img-sec img {
+  box-shadow: 1px 1px rgba(11, 11, 11, 0.553);
+  margin-left: 16px;
+}
+.aboutme {
+  max-width: 400px;
+}
+
+.img-sec img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.contact {
+  background-color: rgb(86, 210, 86);
+}
+
+.topsection a {
+  font-size: 50px;
+  position: fixed;
+  bottom: 44px;
+  right: 20px;
+  color: rgba(65, 105, 225, 0.312);
 }
