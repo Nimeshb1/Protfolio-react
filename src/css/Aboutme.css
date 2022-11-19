@@ -1,6 +1,7 @@
 .imgme {
-  margin-top: 3rem;
-  margin-left: 6rem;
+  padding-top: 3rem;
+  padding-left: 6rem;
+  overflow: hidden;
 }
 
 .backgroundeimg {
