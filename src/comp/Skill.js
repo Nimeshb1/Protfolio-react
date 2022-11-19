@@ -1,42 +1,49 @@
 import React from "react";
-import img from "../img/2.png";
-import img1 from "../img/3.png";
-import img2 from "../img/4.png";
-import img3 from "../img/5.png";
+import { Col, Container, Row } from "react-bootstrap";
+import { Footer } from "./Footer";
+import { Link } from "react-router-dom";
 
 export const Skill = () => {
   return (
-    <div id="section2" className="skills">
-      <div className="container">
-        <div className="row">
-          <div className="col">
-            {/* <!-- titles --> */}
-            <div className="title">
-              {" "}
-              <span>Skills</span>{" "}
+    <div className="containt" data-aos="fade-in">
+      <Container fluid>
+        <Row>
+          <Col className="col-md">
+            <div className="container-bot">
+              <h1 className="mx-5" data-aos="fade-in">
+                SKILLS
+              </h1>
+              <section className="titl-2 text-white" data-aos="fade-up">
+                <h3 className="mx-5">HTML, CSS, JavaScript And REACT </h3>
+              </section>
             </div>
-            {/* <!-- containts --> */}
-            <div className="icons d-flex justify-content-between flex-wrap md">
-              <div>
-                <img src={img} alt="" height="120px" width="120px" />
-                JavaScript
-              </div>
-              <div>
-                <img src={img1} alt="" height="120px" width="120px" />
-                CSS
-              </div>
-              <div>
-                <img src={img2} alt="" height="120px" width="120px" />
-                PHP
-              </div>
-              <div>
-                <img src={img3} alt="" height="120px" width="120px" />
-                HTML
-              </div>
+          </Col>
+
+          <Col>
+            <div className="img-2 text-danger">
+              <i
+                class="fa-brands fa-html5 icon1 text-orange"
+                data-aos="fade-down"
+              ></i>
+
+              <i
+                class="fa-brands fa-css3-alt icon2  text-primary"
+                data-aos="fade-up"
+              ></i>
+
+              <i
+                class="fa-brands fa-js icon3  text-warning"
+                data-aos="fade-in"
+              ></i>
+
+              <i
+                class="fa-brands fa-react icon4  text-primary"
+                data-aos="fade-up"
+              ></i>
             </div>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };

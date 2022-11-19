@@ -1,0 +1,54 @@
+.imgme {
+  margin-top: 3rem;
+  margin-left: 6rem;
+}
+
+.backgroundeimg {
+  display: grid;
+  gap: 2rem;
+  font-size: 5rem;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+.icon12 {
+  margin-left: 15rem;
+  color: rebeccapurple;
+}
+.icon23 {
+  float: right;
+  color: blue;
+}
+
+.icon34 {
+  margin-left: 25rem;
+  margin-top: -4rem;
+  color: blue;
+}
+
+.icon45 {
+  display: flex;
+  justify-content: center;
+  margin-right: 3rem;
+  color: pink;
+}
+
+.container-3 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.container-3 h1 {
+  width: 400px;
+  margin-top: 6rem;
+  font-size: 5rem;
+  -webkit-text-stroke: 0.3vw transparent;
+  color: transparent;
+  background: linear-gradient(rgba(244, 98, 229, 0.807), rgb(236, 121, 200));
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  flex-wrap: wrap;
+}
+.container-3 p {
+  margin-left: 7rem;
+}

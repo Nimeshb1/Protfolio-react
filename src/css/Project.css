@@ -1,0 +1,19 @@
+.container-2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.container-2 h1 {
+  width: 400px;
+  margin-top: 6rem;
+  font-size: 5rem;
+  -webkit-text-stroke: 0.3vw transparent;
+  color: transparent;
+  background: linear-gradient(rgba(244, 98, 229, 0.807), rgb(236, 121, 200));
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  flex-wrap: wrap;
+}
+.container-bot p {
+  margin-left: 7rem;
+}

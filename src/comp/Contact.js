@@ -1,31 +1,44 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import { Footer } from "./Footer";
+import { Link } from "react-router-dom";
 
 export const Contact = () => {
   return (
-    <div id="section5" className="container contact rounded-5 p-1">
-      <div className="title">
-        {" "}
-        <span>Contact</span>{" "}
+    <Footer>
+      <div className="containt" data-aos="fade-right">
+        <Container fluid>
+          <Row>
+            <Col className="col-md">
+              <div className="container-3">
+                <h1 className="mx-5 " data-aos="fade-left">
+                  GET IN <p className="mx-5">TOUCH</p>
+                </h1>
+                <section className="titl-2 text-white" data-aos="fade-in">
+                  <h3 className="mx-5 my-3 fs-5">Nimeshbista164@gmail.com</h3>
+                  <button className="but btn btn-primary">
+                    <Link
+                      to="/about"
+                      className="text-black text-decoration-none fs-5"
+                    >
+                      More..
+                    </Link>
+                  </button>
+                </section>
+              </div>
+            </Col>
+
+            <Col className="col-md">
+              <div className="backgroundeimg">
+                <i class=" icon12 fa-brands fa-github"></i>
+                <i class="icon23 fa-brands fa-facebook"></i>
+                <i class="icon34 fa-brands fa-linkedin"></i>
+                <i class="icon45 fa-brands fa-instagram"></i>
+              </div>
+            </Col>
+          </Row>
+        </Container>
       </div>
-      <div className="row mb-5  ">
-        <div className="col bo fa-3x d-flex justify-content-around px-5">
-          <a className="icon1" href="https://www.facebook.com/ne.mesh.5">
-            <i className="fa-brands fa-square-facebook"></i>
-          </a>
-          <a className="icon3" href="https://www.instagram.com/ne.mesh/">
-            <i className="fa-brands fa-instagram"></i>
-          </a>
-          <a className="icon4" href="#">
-            <i className="fa-brands fa-linkedin"></i>
-          </a>
-          <a className="icon5" href="https://github.com/Nimeshb1">
-            <i className="fa-brands fa-github"></i>
-          </a>
-          <a className="icon6" href="mailto:nimeshbista164@gmail.com">
-            <i className="fa-solid fa-envelope"></i>
-          </a>
-        </div>
-      </div>
-    </div>
+    </Footer>
   );
 };

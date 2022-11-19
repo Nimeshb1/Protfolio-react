@@ -1,72 +1,42 @@
 import React from "react";
-import img from "../img/1.png";
+import { Col, Row } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
 
-export const Navbar = () => {
+export const NewNavbar = () => {
   return (
-    <>
-      {" "}
-      <nav id="navsec" class="top-nav navbar navbar-expand-lg bg-none">
-        <div class="container">
-          <img src={img} alt="" />
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#section1">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#section3">
-                  Projects
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  More
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#section2">
-                      Skills
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#section4">
-                      About
-                    </a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#section5">
-                      Contact{" "}
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </>
+    <Navbar bg="" expand="lg ">
+      <Container fluid className="name text-primary gap-5">
+        <Navbar.Brand href="/" className="text-white">
+          NIMESH BISTA
+        </Navbar.Brand>
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          className="text-white bg-white "
+        />
+        <Navbar.Collapse id="basic-navbar-nav" className="text-white gap-5">
+          <Nav className="me-auto  af-sm text-white gap-5 text-decoration-none">
+            <Link to="/" className="text-white lninktext">
+              Home
+            </Link>
+            <Link to="/about" className="text-white">
+              Project
+            </Link>
+            <Link to="/about" className="text-white">
+              Skills
+            </Link>
+            <Link to="/about" className="text-white">
+              About Me
+            </Link>
+            <Link to="/about" className="text-white">
+              Contact
+            </Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };

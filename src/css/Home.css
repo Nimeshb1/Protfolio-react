@@ -1,0 +1,131 @@
+.containt {
+  height: 90%;
+
+  margin: 0;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 10px;
+  animation: Navbaranimation 2s;
+  color: white;
+}
+
+.link {
+  color: white;
+}
+
+@keyframes Navbaranimation {
+  0% {
+    top: -50px;
+  }
+
+  100% {
+    top: 10px;
+  }
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: imgani 3s;
+  height: 100%;
+  margin-top: 3rem;
+}
+
+@keyframes imgani {
+  0% {
+    transform: scale(0, 0);
+  }
+  80% {
+    transform: scale(0, 0);
+  }
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  margin-top: 7rem;
+}
+.container-bot {
+  display: grid;
+  justify-content: center;
+  margin-top: 9rem;
+}
+.container h1 {
+  font-size: 5rem;
+  -webkit-text-stroke: 0.3vw transparent;
+  color: transparent;
+  background: linear-gradient(rgba(244, 98, 229, 0.807), rgb(236, 121, 200));
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: textani 5s;
+}
+
+@keyframes textani {
+  0% {
+    background-position: -1200px 0;
+    -webkit-text-stroke: 0.3vw transparent;
+  }
+}
+
+.container p {
+  margin-left: 10rem;
+}
+
+.titl {
+  position: relative;
+  right: 0rem;
+  animation: ttlani 3s;
+}
+@keyframes ttlani {
+  0% {
+    right: 30rem;
+    transform: scale(1, 0);
+  }
+}
+
+.scroll {
+  letter-spacing: 1rem;
+  font-size: 1rem;
+  -webkit-text-stroke: 0.3vh;
+  transform: rotate(90deg);
+  position: relative;
+  right: 56%;
+  animation: scrollani 5s;
+}
+@keyframes scrollani {
+  0% {
+    right: 500%;
+  }
+}
+
+.but {
+  margin-left: 3rem;
+  box-shadow: 2px 2px 3px 2px rgb(99, 99, 251);
+}
+
+@media (max-width: 950px) {
+  .container-bot {
+    margin-top: 20rem;
+    overflow: hidden;
+  }
+  .container-2 {
+    margin-top: 40rem;
+    font-size: 2rem;
+    overflow: hidden;
+  }
+  .container-2 h1 {
+    font-size: 1rem;
+    overflow: hidden;
+  }
+  .container-3 {
+    margin-top: 60rem;
+    font-size: 2rem;
+    overflow: hidden;
+  }
+}

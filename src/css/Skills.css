@@ -1,0 +1,32 @@
+.container-bot {
+  display: grid;
+}
+.container-bot h1 {
+  width: 400px;
+  letter-spacing: 2rem;
+  font-size: 5rem;
+  -webkit-text-stroke: 0.3vw transparent;
+  color: transparent;
+  background: linear-gradient(rgba(244, 98, 229, 0.807), rgb(236, 121, 200));
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  flex-wrap: wrap;
+}
+.container-bot p {
+  margin-left: 7rem;
+}
+
+.img-2 {
+  font-size: 7rem;
+  gap: 3rem;
+  display: flex;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+.icon2 {
+  margin-top: 10rem;
+}
+.icon4 {
+  margin-top: 10rem;
+}

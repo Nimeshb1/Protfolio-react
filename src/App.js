@@ -1,38 +1,27 @@
 import "./App.css";
+import "./css/Home.css";
+import "./css/Skills.css";
+import "./css/Project.css";
+import "./css/Aboutme.css";
 import { About } from "./comp/About";
 import { Contact } from "./comp/Contact";
 import { Footer } from "./comp/Footer";
-import { Herosection } from "./comp/Herosection";
-import { Navbar } from "./comp/Navbar";
-import { Project } from "./comp/Project";
-import { Skill } from "./comp/Skill";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home } from "./comp/Home";
 
 function App() {
   return (
-    <div class="wrapper">
-      {/* navbar */}
+    <>
+      <div className="main">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
 
-      <Navbar />
-
-      {/* hero section */}
-      <Herosection />
-      {/* skill */}
-      <Skill />
-
-      {/* titles */}
-
-      {/* containts */}
-
-      {/* project */}
-      <Project />
-
-      {/* About me  */}
-      <About />
-      {/* Contact */}
-      <Contact />
-      {/* footer */}
-      <Footer />
-    </div>
+            <Route path="/about" element={<About />}></Route>
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </>
   );
 }
 
