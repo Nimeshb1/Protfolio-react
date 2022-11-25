@@ -34,9 +34,11 @@ export const Review = () => {
       }
     }
     if (type === "2") {
-      if (stor1 === true && stor2 === false) {
+      if (stor2 === false) {
         strstore2(true);
         strclass1("color fa-solid fa-star");
+        strstore1(true);
+        strclass("color fa-solid fa-star");
       } else {
         strstore2(false);
         strclass1(" fa-solid fa-star");
@@ -48,10 +50,14 @@ export const Review = () => {
         strclass4(" fa-solid fa-star");
       }
     }
-    if (stor1 === true && stor2 === true && type === "3") {
+    if (type === "3") {
       if (stor3 === false) {
         strstore3(true);
         strclass2("color fa-solid fa-star");
+        strstore2(true);
+        strclass1("color fa-solid fa-star");
+        strstore1(true);
+        strclass("color fa-solid fa-star");
       } else {
         strstore3(false);
         strclass2(" fa-solid fa-star");
@@ -61,10 +67,16 @@ export const Review = () => {
         strclass4(" fa-solid fa-star");
       }
     }
-    if (stor1 === true && stor2 === true && stor3 === true && type === "4") {
+    if (type === "4") {
       if (stor4 === false) {
         strstore4(true);
         strclass3("color fa-solid fa-star");
+        strstore3(true);
+        strclass2("color fa-solid fa-star");
+        strstore2(true);
+        strclass1("color fa-solid fa-star");
+        strstore1(true);
+        strclass("color fa-solid fa-star");
       } else {
         strstore4(false);
         strclass3(" fa-solid fa-star");
@@ -72,16 +84,18 @@ export const Review = () => {
         strclass4(" fa-solid fa-star");
       }
     }
-    if (
-      stor1 === true &&
-      stor2 === true &&
-      stor3 === true &&
-      stor4 === true &&
-      type === "5"
-    ) {
+    if (type === "5") {
       if (stor5 === false) {
         strstore5(true);
         strclass4("color fa-solid fa-star");
+        strstore4(true);
+        strclass3("color fa-solid fa-star");
+        strstore3(true);
+        strclass2("color fa-solid fa-star");
+        strstore2(true);
+        strclass1("color fa-solid fa-star");
+        strstore1(true);
+        strclass("color fa-solid fa-star");
       } else {
         strstore5(false);
         strclass4(" fa-solid fa-star");
