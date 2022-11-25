@@ -14,7 +14,7 @@ export const Projects = () => {
         <Row>
           <Col className="col-md">
             <div className="container-2">
-              <h1 className="mx-lg-5 project " data-aos="fade-left">
+              <h1 className="mx-lg-5  project " data-aos="fade-left">
                 PROJECTS
               </h1>
               <section className="titl-2 text-white" data-aos="fade-in">

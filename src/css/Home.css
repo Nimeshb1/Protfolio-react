@@ -133,7 +133,7 @@
   }
 
   .all {
-    margin-top: 60rem;
+    margin-top: 80rem;
   }
   .star i {
     font-size: 2rem;
@@ -146,5 +146,37 @@
   }
   .about {
     margin-right: 4rem;
+  }
+
+  .backgroundeimg {
+    display: grid;
+    gap: 2rem;
+    font-size: 10rem;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  .icon12 {
+    margin-left: 15rem;
+    color: rebeccapurple;
+  }
+
+  .icon23 {
+    float: right;
+    color: blue;
+  }
+
+  .icon34 {
+    /* margin-left: 1rem;
+    margin-top: -4rem; */
+    color: blue;
+  }
+
+  .icon45 {
+    display: flex;
+    justify-content: center;
+    margin-right: 3rem;
+    color: pink;
   }
 }

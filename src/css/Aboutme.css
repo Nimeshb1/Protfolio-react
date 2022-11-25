@@ -5,16 +5,19 @@
 .backgroundeimg {
   display: grid;
   gap: 2rem;
-  font-size: 5rem;
   margin-top: 5rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   overflow: hidden;
 }
 
+.backgroundeimg i {
+  font-size: 4rem;
+}
 .icon12 {
   margin-left: 15rem;
   color: rebeccapurple;
 }
+
 .icon23 {
   float: right;
   color: blue;
@@ -32,12 +35,12 @@
   margin-right: 3rem;
   color: pink;
 }
-
 .container-3 {
   display: grid;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+
+  flex-wrap: wrap;
 }
 .container-3 h1 {
   width: 400px;

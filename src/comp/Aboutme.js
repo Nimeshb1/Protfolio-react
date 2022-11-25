@@ -37,6 +37,7 @@ export const Aboutme = () => {
               src={qurcode}
               alt=""
               className="imgme text-white mt-lg-5  px-lg-5 mx-lg-5"
+              data-aos="fade-in"
             />
             <h1 className="text-white d-flex justify-content-center mx-5">
               SCAN ME

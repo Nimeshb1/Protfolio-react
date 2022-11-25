@@ -26,7 +26,7 @@ export const Home = () => {
                   NIMESH <p>BISTA</p>
                 </h1>
                 <section className="titl text-white">
-                  <h3>Sofetware Enginer </h3>
+                  <h3>Software Enginer </h3>
                   <h3 className="mx-5">Jouniour Front-End Developer </h3>
                 </section>
                 <div className="scroll text-white">SCROLL --></div>

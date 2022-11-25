@@ -1,5 +1,5 @@
 .all {
-  height: 100vh;
+  height: 50%;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -8,13 +8,18 @@
 
 .star {
   display: flex;
-  gap: 8px;
+  gap: 20px;
   font-size: 3rem;
-  padding-left: 5rem;
-  padding-top: 3rem;
-  color: white;
+  margin-left: 3.5rem;
+  color: rgba(121, 94, 94, 0.868);
   cursor: pointer;
 }
 .color {
-  background-color: red;
+  color: rgba(255, 255, 255, 0.785);
+}
+
+@media (min-width: 1000px) {
+  .all {
+    height: 70%;
+  }
 }
