@@ -120,12 +120,31 @@
     overflow: hidden;
   }
   .container-2 h1 {
-    font-size: 1rem;
+    font-size: 30px;
     overflow: hidden;
   }
   .container-3 {
     margin-top: 60rem;
     font-size: 2rem;
     overflow: hidden;
+  }
+  .project {
+    margin-left: 2rem;
+  }
+
+  .all {
+    margin-top: 60rem;
+  }
+  .star i {
+    font-size: 2rem;
+  }
+  .review {
+    font-size: 4rem;
+  }
+  .review > button {
+    width: 10%;
+  }
+  .about {
+    margin-right: 4rem;
   }
 }

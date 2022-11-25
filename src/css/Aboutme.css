@@ -1,6 +1,4 @@
 .imgme {
-  padding-top: 3rem;
-  padding-left: 6rem;
   overflow: hidden;
 }
 
@@ -39,10 +37,12 @@
   display: grid;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .container-3 h1 {
   width: 400px;
-  margin-top: 6rem;
+  margin-top: 9rem;
+  padding-left: 2rem;
   font-size: 5rem;
   -webkit-text-stroke: 0.3vw transparent;
   color: transparent;

@@ -8,6 +8,7 @@ import { Skill } from "./Skill";
 import { Projects } from "./Projects";
 import { Aboutme } from "./Aboutme";
 import { Contact } from "./Contact";
+import { Review } from "./Review";
 
 export const Home = () => {
   useEffect(() => {
@@ -45,6 +46,7 @@ export const Home = () => {
       <Projects />
       <Aboutme />
       <Contact />
+      <Review />
     </Footer>
   );
 };

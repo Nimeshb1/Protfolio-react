@@ -14,7 +14,7 @@ export const Projects = () => {
         <Row>
           <Col className="col-md">
             <div className="container-2">
-              <h1 className="mx-5 " data-aos="fade-left">
+              <h1 className="mx-lg-5 project " data-aos="fade-left">
                 PROJECTS
               </h1>
               <section className="titl-2 text-white" data-aos="fade-in">
@@ -31,7 +31,7 @@ export const Projects = () => {
             </div>
           </Col>
 
-          <Col className="col-md">
+          <Col className="col-md overflow-hidden">
             <Carousel variant="dark" className="mt-5">
               <Carousel.Item>
                 <img className="d-block w-100" src={img} alt="First slide" />

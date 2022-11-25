@@ -10,7 +10,7 @@ export const Skill = () => {
         <Row>
           <Col className="col-md">
             <div className="container-bot">
-              <h1 className="mx-5" data-aos="fade-in">
+              <h1 className="mx-lg-5 " data-aos="fade-in">
                 SKILLS
               </h1>
               <section className="titl-2 text-white" data-aos="fade-up">

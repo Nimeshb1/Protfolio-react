@@ -2,10 +2,13 @@
   display: grid;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  flex-wrap: wrap;
 }
 .container-2 h1 {
   width: 400px;
   margin-top: 6rem;
+  margin-left: 3rem;
   font-size: 5rem;
   -webkit-text-stroke: 0.3vw transparent;
   color: transparent;

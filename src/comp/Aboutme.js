@@ -11,11 +11,11 @@ export const Aboutme = () => {
         <Row>
           <Col className="col-md">
             <div className="container-2">
-              <h1 className="mx-5 " data-aos="fade-left">
+              <h1 className="mx-lg-5 " data-aos="fade-left">
                 ABOUT <p className="mx-5">ME</p>
               </h1>
               <section className="titl-2 text-white" data-aos="fade-in">
-                <h3 className="mx-5 fs-5">
+                <h3 className="mx-5  fs-5  ">
                   Creating new websites and software and playing with silly code
                   is my passion and is only thing that bring smile, anger and
                   creative ideas in my face and brain.{" "}
@@ -23,7 +23,7 @@ export const Aboutme = () => {
                 <button className="but btn btn-primary">
                   <Link
                     to="/about"
-                    className="text-black text-decoration-none fs-5"
+                    className="text-black text-decoration-none fs-5 "
                   >
                     More..
                   </Link>
@@ -33,8 +33,12 @@ export const Aboutme = () => {
           </Col>
 
           <Col className="col-md">
-            <img src={qurcode} alt="" className="imgme text-white" />
-            <h1 className="text-white d-flex justify-content-center">
+            <img
+              src={qurcode}
+              alt=""
+              className="imgme text-white mt-lg-5  px-lg-5 mx-lg-5"
+            />
+            <h1 className="text-white d-flex justify-content-center mx-5">
               SCAN ME
             </h1>
           </Col>
