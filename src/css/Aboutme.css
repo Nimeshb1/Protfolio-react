@@ -13,13 +13,16 @@
 .backgroundeimg i {
   font-size: 4rem;
 }
+.backgroundeimg a {
+  text-decoration: none;
+}
 .icon12 {
   margin-left: 15rem;
   color: rebeccapurple;
 }
 
 .icon23 {
-  float: right;
+  float: left;
   color: blue;
 }
 

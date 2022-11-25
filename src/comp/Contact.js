@@ -29,10 +29,22 @@ export const Contact = () => {
 
           <Col className="col mt-5">
             <div className="backgroundeimg">
-              <i class=" icon12 fa-brands fa-github"></i>
-              <i class="icon23 fa-brands fa-facebook"></i>
-              <i class="icon34 fa-brands fa-linkedin"></i>
-              <i class="icon45 fa-brands fa-instagram"></i>
+              <a href="https://github.com/Nimeshb1">
+                {" "}
+                <i class=" icon12 fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.facebook.com/ne.mesh.5">
+                {" "}
+                <i class="icon23 fa-brands fa-facebook"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/nimesh-bista-3944b019b/">
+                {" "}
+                <i class="icon34 fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/ne.mesh/">
+                {" "}
+                <i class="icon45 fa-brands fa-instagram"></i>
+              </a>
             </div>
           </Col>
         </Row>

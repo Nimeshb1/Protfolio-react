@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export const NewNavbar = () => {
   return (
-    <Navbar bg="" expand="lg ">
+    <Navbar bg="" expand="md">
       <Container fluid className="name text-primary gap-5">
         <Navbar.Brand href="/" className="text-white">
           NIMESH BISTA
